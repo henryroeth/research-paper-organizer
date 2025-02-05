@@ -1,6 +1,5 @@
 # Organizing Research Papers Using Text Embeddings and Clustering
-
-yo lol this is silly
+## In this project, I integrate research into my course on artificial intelligence at Hiram College. The goal is simple—organize research papers using text embeddings and clustering.
 
 ### References
 1. [PyMuPDF Documentation](https://pymupdf.readthedocs.io/en/latest/tutorial.html)
