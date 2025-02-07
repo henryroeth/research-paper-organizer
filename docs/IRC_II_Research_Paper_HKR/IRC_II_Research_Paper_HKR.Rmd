@@ -1,0 +1,45 @@
+---
+title: Organizing Research Papers Using Text Embeddings and Clustering
+thanks: Integrated Research Component II
+affiliation:
+  wide: true
+
+  author:   
+   - name: Henry K. Roeth
+     email: roethhk@hiram.edu
+  
+  institution:
+  - name: Hiram College
+    department: Computer Science Department
+    location: Hiram, OH 44234
+    mark: 0
+
+keywords: ["keyword 1", "keyword 2"]
+abstract: |
+  The abstract goes here.
+  On multiple lines eventually.
+
+bibliography: mybibfile.bib
+output: rticles::ieee_article
+---
+
+# Introduction
+This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true \newline
+
+This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #This is the introduction! author-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true # uncomment this line to useauthor-columnar: true #
+
+
+# Conclusion
+
+The conclusion goes here.
+
+# Acknowledgment {#acknowledgment}
+
+The authors would like to thank...
+
+# Bibliography styles
+
+Here are two sample references [@shah2012document]. Here is another citation here [@sebstianifabrizio]. Here is another way to cite according to @shah2012document.
+
+\newpage
+# References {#references .numbered}
