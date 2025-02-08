@@ -19,7 +19,7 @@
 
 ### 1. **Data Fetching Script (`fetch_arxiv_dataset.py`)**
 
-This script uses the arXiv API to fetch a set of research papers and download them as PDFs into a designated `data` folder.
+This script uses the arXiv API to fetch a set of research papers and download them as PDFs into a designated `data` folder
 
 #### Key References:
 - **[arXiv API Documentation](https://arxiv.org/help/api/index)**: For fetching papers from arXiv.
@@ -57,7 +57,7 @@ This script reads the PDFs, extracts the abstract text, generates embeddings usi
 
 ### 1. **Data Fetching (`fetch_arxiv_dataset.py`)**
 
-This script makes use of the **[arXiv API](https://arxiv.org/help/api/index)** and **[requests](https://docs.python-requests.org/en/latest/)** to download research papers and save them into the `data` folder.
+This script makes use of the **[arXiv API](https://arxiv.org/help/api/index)** and **[requests](https://docs.python-requests.org/en/latest/)** to download research papers
 
 #### Explanation of Key Code:
 - **`arxiv.Client()`**: Used to interact with the arXiv API and search for papers
