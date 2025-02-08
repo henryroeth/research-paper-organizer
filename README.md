@@ -21,7 +21,7 @@
 
 This script uses the arXiv API to fetch a set of research papers and download them as PDFs into a designated `data` folder
 
-#### Key References:
+#### References:
 - **[arXiv API Documentation](https://arxiv.org/help/api/index)**: For fetching papers from arXiv.
 - **[requests library](https://docs.python-requests.org/en/latest/)**: For making HTTP requests to download the PDFs.
 - **[tqdm library](https://tqdm.github.io/)**: For displaying a progress bar during the download process.
@@ -30,21 +30,11 @@ This script uses the arXiv API to fetch a set of research papers and download th
 
 This script reads the PDFs, extracts the abstract text, generates embeddings using the `sentence-transformers` library, and then clusters the papers using the KMeans algorithm.
 
-#### Key Steps
-1. **Text Extraction**:
-    - Extracts abstracts from the downloaded PDFs using a custom text extraction function (likely based on PyMuPDF or another library).
-
-2. **Text Embedding**:
-    - Uses a pre-trained **[SentenceTransformer](https://huggingface.co/sentence-transformers)** model to convert abstracts into high-dimensional vector embeddings
-
-3. **Clustering**:
-    - Applies the **[KMeans algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)** to group papers into clusters based on their content
-    
-4. **Dimensionality Reduction (PCA)**:
-    - Reduces the dimensionality of the embeddings to 2D using **[PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)** for visualization
-    
-5. **Visualization**:
-    - Plots the clusters in 2D using **[Matplotlib](https://matplotlib.org/stable/contents.html)**
+### References:
+- **[SentenceTransformer](https://huggingface.co/sentence-transformers)**
+- **[KMeans algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)**
+- **[PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)**
+- **[Matplotlib](https://matplotlib.org/stable/contents.html)**
 
 ## Workflow
 
