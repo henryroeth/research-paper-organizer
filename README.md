@@ -1,3 +1,6 @@
+# Organizing Research Papers Using Text Embeddings and Clustering
+### In this project, I integrate research into my course on artificial intelligence at Hiram College. The goal is simple—organize research papers using text embeddings and clustering.
+
 # Documentation
 
 ### **Text Extraction**
@@ -19,3 +22,4 @@
 - **[arXiv API Documentation](https://arxiv.org/help/api/index)**: API for fetching research papers from arXiv.
 - **[Requests Library](https://docs.python-requests.org/en/latest/)**: Used for downloading PDF files.
 - **[tqdm Library](https://tqdm.github.io/)**: For displaying a progress bar during the download process.
+
