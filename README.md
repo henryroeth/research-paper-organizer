@@ -57,7 +57,7 @@ This script reads the PDFs, extracts the abstract text, generates embeddings usi
 
 ### 1. **Data Fetching (`fetch_arxiv_dataset.py`)**
 
-This script makes use of the **[arXiv API](https://arxiv.org/help/api/index)** and **[requests](https://docs.python-requests.org/en/latest/)** to download research papers
+This script makes use of the **[arXiv API](https://arxiv.org/help/api/index)** and **[requests](https://docs.python-requests.org/en/latest/)** to download research papers.
 
 #### Explanation of Key Code:
 - **`arxiv.Client()`**: Used to interact with the arXiv API and search for papers
