@@ -15,7 +15,7 @@
 - **[scikit-learn](https://scikit-learn.org/stable/)** - For clustering and dimensionality reduction.
 - **[Matplotlib](https://matplotlib.org/stable/)** - For visualizing the clustered data.
 
-## Key Modules
+## Modules
 
 ### 1. **Data Fetching Script (`fetch_arxiv_dataset.py`)**
 
@@ -82,13 +82,13 @@ The final clustering results are visualized using **[Matplotlib](https://matplot
 ## Resources for Further Learning
 
 ### Text Embedding and NLP
-- **[Hugging Face Transformers](https://huggingface.co/transformers/)**: A powerful library for NLP models, including sentence transformers.
-- **[Sentence-Transformers Documentation](https://huggingface.co/sentence-transformers)**: Learn how to use transformer models for text embeddings.
+- **[Hugging Face Transformers](https://huggingface.co/transformers/)**: A powerful library for NLP models, including sentence transformers
+- **[Sentence-Transformers Documentation](https://huggingface.co/sentence-transformers)**: Learn how to use transformer models for text embeddings
 
 ### Clustering and Dimensionality Reduction
-- **[KMeans Clustering in Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)**: Documentation on KMeans clustering.
-- **[PCA in Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)**: A detailed guide on PCA for dimensionality reduction.
+- **[KMeans Clustering in Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)**: Documentation on KMeans clustering
+- **[PCA in Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)**: A detailed guide on PCA for dimensionality reduction
 
 ### File Handling and Downloads
-- **[Requests Library Documentation](https://docs.python-requests.org/en/latest/)**: A comprehensive guide to making HTTP requests in Python, including handling file downloads.
-- **[PyMuPDF Documentation](https://pypi.org/project/PyMuPDF/)**: For extracting text from PDFs.
+- **[Requests Library Documentation](https://docs.python-requests.org/en/latest/)**: A comprehensive guide to making HTTP requests in Python, including handling file downloads
+- **[PyMuPDF Documentation](https://pypi.org/project/PyMuPDF/)**: For extracting text from PDFs
