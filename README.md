@@ -27,6 +27,6 @@
 
 # Research References
 
-1. **["A Comparison of Document Clustering Techniques"](ttps://www.stat.cmu.edu/~rnugent/PCMI2016/papers/DocClusterComparison.pdf)**:
-2. **["Document Clustering: A Detailed Review"](ttps://research.ijais.org/volume4/number5/ijais12-450691.pdf)**:
-3. **["The Beginner’s Guide to Text Embeddings"](ttps://www.deepset.ai/blog/the-beginners-guide-to-text-embeddings)**:
+1. **["A Comparison of Document Clustering Techniques"](https://www.stat.cmu.edu/~rnugent/PCMI2016/papers/DocClusterComparison.pdf)**
+2. **["Document Clustering: A Detailed Review"](https://research.ijais.org/volume4/number5/ijais12-450691.pdf)**
+3. **["The Beginner’s Guide to Text Embeddings"](https://www.deepset.ai/blog/the-beginners-guide-to-text-embeddings)**
