@@ -1,7 +1,9 @@
 # Organizing Research Papers Using Text Embeddings and Clustering
 ### In this project, I integrate research into my course on artificial intelligence at Hiram College. The goal is simple—organize research papers using text embeddings and clustering.
 
-# Documentation
+# Project Documentation
+
+# Programming Resources
 
 ### **Text Extraction**
 - **[PyMuPDF](https://pypi.org/project/PyMuPDF/)**: Library used to extract text from PDF files.
@@ -23,3 +25,8 @@
 - **[Requests Library](https://docs.python-requests.org/en/latest/)**: Used for downloading PDF files.
 - **[tqdm Library](https://tqdm.github.io/)**: For displaying a progress bar during the download process.
 
+# Research References
+
+("A Comparison of Document Clustering Techniques")[https://www.stat.cmu.edu/~rnugent/PCMI2016/papers/DocClusterComparison.pdf]
+("Document Clustering: A Detailed Review")[https://research.ijais.org/volume4/number5/ijais12-450691.pdf]
+("The Beginner’s Guide to Text Embeddings")[https://www.deepset.ai/blog/the-beginners-guide-to-text-embeddings]
