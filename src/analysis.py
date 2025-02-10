@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
 # Load sentence transformer model
-model = SentenceTransformer('all-MiniLM-L6-v2')  # Small & efficient embedding model
+model = SentenceTransformer('all-MiniLM-L6-v2')  # small & efficient embedding model
 
 # Function to extract text from PDFs
 def extract_text_from_pdfs(pdf_folder):
@@ -18,7 +18,7 @@ def extract_text_from_pdfs(pdf_folder):
         if file.endswith(".pdf"):
             file_path = os.path.join(pdf_folder, file)
             doc = fitz.open(file_path)
-            text = " ".join([page.get_text("text") for page in doc])  # Extract text from all pages
+            text = " ".join([page.get_text("text") for page in doc])  # extract text from all pages
             pdf_texts.append(text)
             file_names.append(file)
     
@@ -32,7 +32,7 @@ pdf_texts, file_names = extract_text_from_pdfs(pdf_folder)
 embeddings = model.encode(pdf_texts)
 
 # Perform K-Means clustering
-num_clusters = 3  # May be adjusted
+num_clusters = 3  # adjust as needed
 kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init=10)
 labels = kmeans.fit_predict(embeddings)
 
